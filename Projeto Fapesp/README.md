@@ -1,3 +1,4 @@
+
 Modelo Projeto Fapesp
 ======
 
@@ -8,17 +9,18 @@ Adaptação do modelo da EESC-USP (abntex2)
 
 Créditos ao original:
 
-%% eesc.cls, v1.0 athila
-%% Copyright 2013 by Athila e Monaro
-%%
-%% Este trabalho é uma adequação das normas de dissertações e teses
-%% da Universidade de São Paulo - USP de acordo com a Norma ABNT
-%%
-%%
-%% Quaisquer dúvidas favor enviar e-mail para:
-%%
-%% athila.uno@gmail.com ou
-%% renato.monaro@gmail.com
+>eesc.cls, v1.0 athila
+>
+>Copyright 2013 by Athila e Monaro
+>
+>Este trabalho é uma adequação das normas de dissertações e teses
+da Universidade de São Paulo - USP de acordo com a Norma ABNT
+>
+>
+>Quaisquer dúvidas favor enviar e-mail para:
+>
+>athila.uno@gmail.com ou
+ >renato.monaro@gmail.com
 
 ---
 
