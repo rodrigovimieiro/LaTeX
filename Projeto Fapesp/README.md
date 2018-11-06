@@ -3,6 +3,7 @@ Modelo Projeto Fapesp
 ======
 
 Autor: Rodrigo Vimieiro
+
 E-mail: rodrigo.vimieiro@gmail.com
 
 Adaptação do modelo da EESC-USP (abntex2)
