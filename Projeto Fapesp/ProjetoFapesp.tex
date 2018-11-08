@@ -61,12 +61,12 @@
 % Título:
 %	1. Título em português
 %	2. Título em inglês
-\titulo{Estudo sobre métodos de reconstrução para imagens de tomossíntese digital da mama}{}
+\titulo{Título em português}{}
 %
 % Autor:
 %	1. Nome completo do autor
 %	2. Formato de nome para bibliografia
-\autor{Rodrigo de Barros Vimieiro}{Vimieiro, Rodrigo}
+\autor{Nome completo do autor}{Sobrenome, Nome}
 %
 % Cidade
 \local{São Carlos}
@@ -75,7 +75,7 @@
 % Área de concentração da pesquisa
 \areaconcentracao{Processamento de Sinais e Instrumentação}
 % Nome do orientador
-\orientador{Marcelo Andrade da Costa Vieira}
+\orientador{Nome completo do Orientador}
 % Nome do coorientador
 %\coorientador{}
 % ---
@@ -137,7 +137,27 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{preambulo}
 	
-Este é o preâmbulo
+O projeto de pesquisa\footnote{\url{http://www.fapesp.br/253}} deve ser apresentado de maneira clara e resumida, ocupando no máximo 20 páginas digitadas em espaço duplo. Para propostas encaminhadas através do Sistema de Apoio a Gestão (SAGe), deve anexar documento tipo DOC ou PDF de até 5Mb.
+
+\noindent Deve compreender:
+
+
+\begin{enumerate}
+
+\item Resumo (máximo 20 linhas);
+
+\item Introdução e justificativa, com síntese da bibliografia fundamental;
+
+\item Objetivos;
+
+\item Plano de trabalho e cronograma de sua execução;
+
+\item Material e métodos;
+
+Forma de análise dos resultados.
+\end{enumerate}
+
+A FAPESP espera que o candidato participe intensamente na redação do projeto. A responsabilidade pelo projeto é do orientador, mas o candidato deve estar preparado para discuti-lo e analisar os resultados. No caso de bolsas de IC, quando houver projetos de IC associados a um mesmo projeto de pesquisa do orientador, é imprescindível que para cada candidato a IC haja uma parte bem definida designada, mesmo que faça referência a outros projetos de IC em solicitação ou em andamento. 
 
 \end{preambulo}
 
@@ -146,15 +166,16 @@ Este é o preâmbulo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Resumo em português
 \begin{resumo}{palavra-chave1, palavra-chave2, palavra-chave3}
-Este é o resumo.
+	
+Resumo (máximo 20 linhas);
 
 \end{resumo}
 
 % Resumo em inglês
-\begin{abstract}{palavra-chave2. palavra-chave2. palavra-chave2}
-This is the english abstract.
-	
-\end{abstract}
+%\begin{abstract}{palavra-chave2. palavra-chave2. palavra-chave2}
+%This is the english abstract.
+%	
+%\end{abstract}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%												  	DISSERTAÇÃO																%
@@ -194,12 +215,11 @@ This is the english abstract.
 % Introdução
 % ----------------------------------------------------------
 
-\include{cap/Cap1_IntroJust}
-\include{cap/Cap2_Objetivo}
-\include{cap/Cap3_BaseTeorica}
-\include{cap/Cap4_MateriaisMetodos}
-\include{cap/Cap5_PlanodeTrabalhoeCronograma}
-%\include{cap/Cap6_AnaliseDisseminacaoResultados}
+\include{cap/IntroJust}
+\include{cap/Objetivo}
+\include{cap/PlanodeTrabalhoeCronograma}
+\include{cap/MateriaisMetodos}
+\include{cap/AnaliseResultados}
 
 
 % ---
@@ -234,16 +254,16 @@ This is the english abstract.
 % ---
 % Inicia os apêndices
 % ---
-\begin{apendicesenv}
-% Imprime uma página indicando o início dos apêndices
-\partapendices
+%\begin{apendicesenv}
+%% Imprime uma página indicando o início dos apêndices
+%\partapendices
 % ----------------------------------------------------------
 % Incluir Apêndice
 % ----------------------------------------------------------
 
-\include{cap/Apen}
-
-\end{apendicesenv}
+%\include{cap/Apen}
+%
+%\end{apendicesenv}
 % ---
 
 % ----------------------------------------------------------

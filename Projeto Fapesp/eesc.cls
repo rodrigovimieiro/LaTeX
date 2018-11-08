@@ -565,7 +565,8 @@
 %=========================================================================
 % Nomes Constantes
 %=========================================================================
-%\renewcommand{\chaptername}{Capítulo}
+%\renewcommand{\chaptername}{Teste}
+\renewcommand{\@chapapp}{}
 %\renewcommand{\partname}{Parte}
 
 %=========================================================================
@@ -582,7 +583,7 @@
 \renewcommand*\tableautorefname{Tabela}%
 \renewcommand*\partautorefname{Parte}%
 \renewcommand*\appendixautorefname{Apêndice}%
-\renewcommand*\chapterautorefname{Capítulo}%
+\renewcommand*\chapterautorefname{Capítuloo}%
 \renewcommand*\sectionautorefname{Seção}%
 \renewcommand*\subsectionautorefname{Subseção}%
 \renewcommand*\subsubsectionautorefname{Subseção}%
