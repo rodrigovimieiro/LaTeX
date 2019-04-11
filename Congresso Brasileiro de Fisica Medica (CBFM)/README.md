@@ -4,10 +4,11 @@ Modelo Projeto Congresso Brasileiro de Fisica Medica (CBFM)
 
 Autores: Rodrigo Vimieiro & Vinícius Paranaíba Campos
 
-> 
-> Requerimentos:
-> 1 - Compilar usando o XeLateX.
-2 - Funcionando no Overleaf.
+
+**Requerimentos:**
+1. Compilar usando o XeLateX ([help]([https://pt.overleaf.com/learn/how-to/Changing_compiler](https://pt.overleaf.com/learn/how-to/Changing_compiler))).
+
+2. Testado somente no Overleaf.
 
 ---
 Laboratory of Computer Vision ([Lavi](http://iris.sel.eesc.usp.br/lavi/))</br>
