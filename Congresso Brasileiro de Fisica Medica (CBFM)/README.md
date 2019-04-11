@@ -1,5 +1,5 @@
 
-Modelo Projeto Congresso Brasileiro de Fisica Medica (CBFM)
+Modelo Congresso Brasileiro de Fisica Medica (CBFM)
 ======
 
 Autores: Rodrigo Vimieiro & Vinícius Paranaíba Campos
