@@ -1,0 +1,64 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usetheme{Madrid}
+\usecolortheme{_lavi_usp}
+
+
+\usepackage{tikz}
+\usepackage{color}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%%%%%%%%
+\title[rodrigo.vimieiro@usp.br] %optional
+{Projeto de doutorado}
+
+\subtitle{Proposta e sugestões}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Authors %%%%%%%%%%%%%%%%%%%%%%%%
+\author[Vimieiro, Rodrigo] % (optional, for multiple authors)
+{Rodrigo de B. Vimieiro\inst{1} \and Marcelo A. C. Vieira\inst{1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Department %%%%%%%%%%%%%%%%%%%%%%%%
+\institute[USP] % (optional)
+{
+	\inst{1}%
+	Universidade de São Paulo\\
+	Escola de Engenharia de São Carlos\\
+	Programa de Pós-Graduação em Engenharia Elétrica\\
+
+%	\and
+%	\inst{2}%
+%	Faculty of Chemistry\\
+%	Very Famous University
+
+%%%%%%%%%%%%%%%%%%%%%%%% Logo %%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=1.3cm]{figures/logo/logo_eesc.png}};
+\end{tikzpicture}
+
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=1.3cm]{figures/logo/logo_lavi.png}};
+\end{tikzpicture}
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Conference %%%%%%%%%%%%%%%%%%%%%%%%
+\date[São Carlos 2019] % (optional)
+{São Carlos, Outubro 2019}
+
+
+\begin{document}
+ 
+\frame{\titlepage}
+
+%----SLIDES----%
+\include{content/introduction}
+\include{content/objective}
+\include{content/background}
+\include{content/material_methods}
+\include{content/results}
+\include{content/conclusion}
+%--------------%
+
+\end{document}

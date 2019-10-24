@@ -1,0 +1,29 @@
+
+%%%%%%%%%%%%%%%%%%%%%%%% Logo %%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%% Header %%%%%%%%%%
+\addtobeamertemplate{frametitle}{}
+{
+	\begin{tikzpicture}[remember picture,overlay]
+	\node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{figures/logo/logo_eesc.png}};
+	\end{tikzpicture}
+}
+
+\DefineNamedColor{named}{teste}{RGB}{255,0,0}
+\DefineNamedColor{named}{titleBG}{RGB}{13,114,188}
+\DefineNamedColor{named}{frameBG}{RGB}{147,173,199}
+
+\DefineNamedColor{named}{authorHF}{RGB}{1,64,128}
+\DefineNamedColor{named}{titleHF}{RGB}{13,114,188}
+
+
+\setbeamercolor{author in head/foot}{bg=titleHF, fg=white}
+\setbeamercolor{title in head/foot} {bg=authorHF, fg=white}
+\setbeamercolor{date in head/foot}  {bg=titleHF, fg=white}
+
+\setbeamercolor*{palette primary}{fg=white,bg=titleBG}
+\setbeamercolor*{palette secondary}{fg=black,bg=white}
+\setbeamercolor*{palette tertiary}{fg=white,bg=black}
+\setbeamercolor*{palette quaternary}{fg=white,bg=black}
+\setbeamercolor*{structure}{fg=black,bg=white}
+\setbeamercolor{frametitle}{fg=titleBG,bg=white}
