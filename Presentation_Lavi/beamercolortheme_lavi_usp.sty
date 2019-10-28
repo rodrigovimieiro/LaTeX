@@ -1,3 +1,19 @@
+%% Apresentação
+%% 
+%% Nome: Rodrigo de Barros Vimieiro
+%% E-mail: rodrigo.vimieiro@gmail.com
+%%
+%% Universidade de São Paulo - São Carlos
+%% Laboratório de Visão Computacional - LAVI
+%%
+%% Data: 24/10/2019
+
+\mode<presentation>
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{color}
+\usepackage{animate}
 
 %%%%%%%%%%%%%%%%%%%%%%%% Logo %%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -5,25 +21,81 @@
 \addtobeamertemplate{frametitle}{}
 {
 	\begin{tikzpicture}[remember picture,overlay]
-	\node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=0.8cm]{figures/logo/logo_eesc.png}};
+	\node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=1.2cm]{figures/logo/logo_eesc.png}};
 	\end{tikzpicture}
 }
 
-\DefineNamedColor{named}{teste}{RGB}{255,0,0}
+
+%%%%%%%%%%%%%%%%%%%%%%%% Color %%%%%%%%%%%%%%%%%%%%%%%%
+
 \DefineNamedColor{named}{titleBG}{RGB}{13,114,188}
 \DefineNamedColor{named}{frameBG}{RGB}{147,173,199}
-
 \DefineNamedColor{named}{authorHF}{RGB}{1,64,128}
 \DefineNamedColor{named}{titleHF}{RGB}{13,114,188}
+
+\DefineNamedColor{named}{frameTitle}{RGB}{40,54,100}
 
 
 \setbeamercolor{author in head/foot}{bg=titleHF, fg=white}
 \setbeamercolor{title in head/foot} {bg=authorHF, fg=white}
 \setbeamercolor{date in head/foot}  {bg=titleHF, fg=white}
 
-\setbeamercolor*{palette primary}{fg=white,bg=titleBG}
-\setbeamercolor*{palette secondary}{fg=black,bg=white}
-\setbeamercolor*{palette tertiary}{fg=white,bg=black}
-\setbeamercolor*{palette quaternary}{fg=white,bg=black}
-\setbeamercolor*{structure}{fg=black,bg=white}
-\setbeamercolor{frametitle}{fg=titleBG,bg=white}
+\setbeamercolor{frametitle}{fg=frameTitle,bg=white}
+
+\setbeamercolor*{palette primary}		{fg=white,bg=titleBG}
+%\setbeamercolor*{palette secondary}		{fg=black,bg=white}
+%\setbeamercolor*{palette tertiary}		{fg=white,bg=black}
+%\setbeamercolor*{palette quaternary}	{fg=white,bg=black}
+
+\setbeamercolor{itemize item}		{fg=black}
+\setbeamercolor{itemize subitem}	{fg=black}
+\setbeamercolor{itemize subsubitem}	{fg=black}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Fonts %%%%%%%%%%%%%%%%%%%%%%%%
+
+\setbeamerfont{title}{size=\LARGE,series=\bfseries}
+\setbeamerfont{frametitle}{size=\LARGE,series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\large}
+\setbeamerfont{date}{size=\small}
+\setbeamerfont{section title}{size=\LARGE}
+\setbeamerfont{block title}{series=\bfseries}
+\setbeamerfont{highlight title}{size=\Huge,series=\bfseries}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Itens %%%%%%%%%%%%%%%%%%%%%%%%
+\setbeamertemplate{itemize item}[circle]
+\setbeamertemplate{itemize subitem}[triangle]
+\setbeamertemplate{itemize subsubitem}[square]
+
+
+%%%%%%%%%%%%%%%%%%%%%%%% Diagrams %%%%%%%%%%%%%%%%%%%%%%%%
+
+% Define block styles
+\tikzstyle{decision} = [diamond, draw, fill=blue!20, text width=4.5em, text badly centered, node distance=3cm, inner sep=0pt]
+\tikzstyle{block} = [rectangle, draw, fill=blue!20, text width=7em, text centered, rounded corners, minimum height=4em]
+\tikzstyle{line} = [draw, -latex']
+\tikzstyle{cloud} = [draw, ellipse,fill=red!20, node distance=3cm, minimum height=2em]
+
+
+%%%%%%%%%%%%%%%%%%%%%%% Bibliography %%%%%%%%%%%%%%%%%%%%%%%%
+%\RequirePackage[
+%sorting=nty,                        % sorted by name, title, year
+%maxcitenames=2,						% one author max in the text
+%maxbibnames=99,						% list all authors in the reference list
+%%	style=numeric,						% numeric style for reference list
+%%	citestyle=numeric-comp,				% numeric style for citations
+%style=abnt,					% NOTE: if you want the author-year style instead,
+%citestyle=alphabetic,			    % uncomment these 2 lines and comment both ones above
+%backend=biber]		            	% uses biber to compile (instead of bibtex)
+%{biblatex}							    % uses BibLaTeX (instead of BibTeX)
+
+%\usepackage[style=authortitle,backend=bibtex]{biblatex}
+
+\usepackage[style=abnt]{biblatex}
+\addbibresource{biblio.bib}
+
+
+\mode
+<all>

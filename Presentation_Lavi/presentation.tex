@@ -1,16 +1,28 @@
-\documentclass{beamer}
+%% Apresentação
+%% 
+%% Nome: Rodrigo de Barros Vimieiro
+%% E-mail: rodrigo.vimieiro@gmail.com
+%%
+%% Universidade de São Paulo - São Carlos
+%% Laboratório de Visão Computacional - LAVI
+%%
+%% Data: 24/10/2019
+
+\documentclass[11pt,    % default is 11pt, use 10pt for more compact slides
+handout,            % collapse all overlays (=animations) and video-invert console text
+english,            % presentation language (theme supports only french & english)
+xcolor=table,       % colors in the tables
+envcountsect,       % include section number in theorem numbers
+aspectratio=169      % format: only 16:9 (169) and 4:3 (43) are supported
+]{beamer}
+
 \usepackage[utf8]{inputenc}
 \usetheme{Madrid}
 \usecolortheme{_lavi_usp}
 
-
-\usepackage{tikz}
-\usepackage{color}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%% Title %%%%%%%%%%%%%%%%%%%%%%%%
 \title[rodrigo.vimieiro@usp.br] %optional
-{Projeto de doutorado}
+{Projeto de Pesquisa de Doutorado}
 
 \subtitle{Proposta e sugestões}
 
@@ -24,7 +36,7 @@
 	\inst{1}%
 	Universidade de São Paulo\\
 	Escola de Engenharia de São Carlos\\
-	Programa de Pós-Graduação em Engenharia Elétrica\\
+	Departamento de Engenharia Elétrica\\
 
 %	\and
 %	\inst{2}%
@@ -34,11 +46,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%% Logo %%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{tikzpicture}[remember picture,overlay]
-\node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=1.3cm]{figures/logo/logo_eesc.png}};
+\node[anchor=north east,yshift=2pt] at (current page.north east) {\includegraphics[height=1.7cm]{figures/logo/logo_eesc.png}};
 \end{tikzpicture}
 
 \begin{tikzpicture}[remember picture,overlay]
-\node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=1.3cm]{figures/logo/logo_lavi.png}};
+\node[anchor=north west,yshift=2pt] at (current page.north west) {\includegraphics[height=1.7cm]{figures/logo/logo_lavi.png}};
 \end{tikzpicture}
 
 }
@@ -50,7 +62,10 @@
 
 \begin{document}
  
-\frame{\titlepage}
+\frame{
+	\vspace{1.4cm}
+	\titlepage
+}
 
 %----SLIDES----%
 \include{content/introduction}
@@ -59,6 +74,12 @@
 \include{content/material_methods}
 \include{content/results}
 \include{content/conclusion}
+
+\begin{frame}
+\frametitle{Referências}
+\printbibliography
+\end{frame}
+
 %--------------%
 
 \end{document}
