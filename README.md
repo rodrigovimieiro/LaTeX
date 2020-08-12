@@ -1,9 +1,8 @@
 Modelos LaTeX
 ======
 
-**Objetivo:** Produção de modelos LaTeX para dissertações, teses, projetos etc.
+**Objetivo:** Produção de modelos LaTeX para dissertações, teses, projetos, artigos etc.
 
-Modelo  [EESC-USP](https://github.com/helderc/LaTeX-EESC-USP)
 
 ---
 
